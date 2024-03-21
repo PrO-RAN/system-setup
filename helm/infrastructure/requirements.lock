@@ -1,0 +1,24 @@
+dependencies:
+- name: ric-common
+  repository: http://127.0.0.1:8879/charts
+  version: 3.3.2
+- name: extsvcplt
+  repository: file://subcharts/extsvcplt
+  version: 0.2.0
+- name: docker-credential
+  repository: file://./subcharts/docker-credential
+  version: 1.0.0
+- name: kong
+  repository: file://./subcharts/kong
+  version: 2.8.0
+- name: certificate-manager
+  repository: file://./subcharts/certificate-manager
+  version: 0.1.0
+- name: danm-networks
+  repository: file://./subcharts/danm-networks
+  version: 1.0.0
+- name: prometheus
+  repository: file://./subcharts/prometheus
+  version: 11.3.0
+digest: sha256:54ad61aad072d4a59fffc7b2b5a88c61841b527cfd6fa1ae3ff2aae1b0d2d8c2
+generated: "2023-02-21T12:35:41.555760643+05:30"
